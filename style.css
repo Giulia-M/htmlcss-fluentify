@@ -4,7 +4,7 @@
     padding: 0;
 }
 .sec-centered {
-    width: 1400px;
+    max-width: 1660px;
     margin: 0 auto;
 }
 
@@ -16,15 +16,15 @@
 .float-left {
     float: left;
 }
-
-/* header */
-.section {
+.section-bg-blue {
     background-color: rgb(12, 50, 90);
 }
+/* header */
+
 .sec-header {
     
-    height: 80px;
-    line-height: 80px;
+    height: 100px;
+    line-height: 100px;
 }
 .logo {
     width: 10%;
@@ -34,16 +34,33 @@
   
 }
 .elenco-nav {
-    width: 45%;
+    width: 55%;
 }
 .elenco-login {
-    width: 45%;
+    width: 35%;
+    text-align: right;
 }
 nav ul li {
     display: inline-block;
+    list-style-type: none;
 }
 
 /* main */
 .sec-hero {
-    background-color: rgb(12, 50, 90);
+    height: 500px;
+    background-image: url(img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.title-container-row {
+ position: relative;
+ height: 500px;
+}
+.title-aligned {
+    width: 600px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, 50%);
 }
