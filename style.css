@@ -8,6 +8,15 @@
     margin: 0;
     padding: 0;
 }
+/* position fixed */
+.help-click {
+    position: fixed;
+    display: block;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
 .sec-centered {
     max-width: 1660px;
     margin: 0 auto;
