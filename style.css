@@ -3,14 +3,47 @@
     margin: 0;
     padding: 0;
 }
-.sec-header {
-    background-color: rgb(12, 50, 90);
-    height: 80px;
-}
 .sec-centered {
-    width: 1024px;
-    margin: auto;
+    width: 1400px;
+    margin: 0 auto;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+.float-left {
+    float: left;
+}
+
+/* header */
+.section {
+    background-color: rgb(12, 50, 90);
+}
+.sec-header {
+    
+    height: 80px;
+    line-height: 80px;
+}
+.logo {
+    width: 10%;
+}
+.logo img {
+    vertical-align: middle;
+  
+}
+.elenco-nav {
+    width: 45%;
+}
+.elenco-login {
+    width: 45%;
+}
+nav ul li {
+    display: inline-block;
+}
+
+/* main */
 .sec-hero {
     background-color: rgb(12, 50, 90);
 }
