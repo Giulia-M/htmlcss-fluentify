@@ -79,7 +79,7 @@ nav ul li {
     text-align: center;
 }
 
-/* row n.3 */
+/* row n.3 colonne:3 */
 .column-3 {
     width: 30%;
     padding: 50px 0;
@@ -88,4 +88,16 @@ nav ul li {
 }
 .col-center {
     margin: 0 5%;
+}
+
+/* row n4 colonne:2  */
+.column-2 {
+    width: 45%;
+    padding: 50px 0;
+    background-color: red;
+    border: 1px solid black;
+}
+
+div.column-2:nth-of-type(1) {
+    margin-right: 5%;
 }
