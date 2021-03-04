@@ -218,3 +218,16 @@ div.column-2:nth-of-type(1) {
 div.ctas a {
     color: rgb(129, 165, 205);
 }
+
+/* footer */
+.form-group span {
+    color: rgb(126, 126, 126);
+    margin-right: 10px;
+}
+.form-group > select {
+    margin-right: 10px;
+}
+#option-color {
+    color: rgb(126, 126, 126);
+
+}
