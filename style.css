@@ -15,6 +15,7 @@
     position: fixed;
     width: 50px;
     height: 50px;
+    line-height: 50px;
     bottom: 0;
     right: 10%;
 }
@@ -40,7 +41,6 @@
 /* header */
 
 .sec-header {
-    
     height: 100px;
     line-height: 100px;
 }
@@ -61,8 +61,25 @@
 nav ul li {
     display: inline-block;
     list-style-type: none;
+    padding: 0 10px;
 }
-
+ul li a, .chat-help a {
+    color:white;
+    text-decoration: none;
+}
+#butt-a {
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.butt-b {
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(124, 187, 2);
+    color:white;
+    text-decoration: none;
+}
 /* main */
 .sec-hero {
     height: 500px;
@@ -74,13 +91,28 @@ nav ul li {
 .title-container-row {
  position: relative;
  height: 500px;
+ color: white;
+}
+
+.title-container-row h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+
 }
 .title-aligned {
-    width: 600px;
+    width: 500px;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 10%;
+    left: 15%;
     transform: translate(-50%, 50%);
+}
+.butt-c {
+    border: 1px solid transparent;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: rgb(124, 187, 2);
+    color:white;
+    text-decoration: none;
 }
 
 /* section-banner */
@@ -90,8 +122,17 @@ nav ul li {
 
 .message {
     text-align: center;
+    padding: 25px 0;
 }
-
+div.message h2 {
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-size: 25px;
+}
+div.message p {
+   color: rgb(123, 123, 123);
+   font-size: 20px;
+}
 /* row n.3 colonne:3 */
 .column-3 {
     width: 30%;
